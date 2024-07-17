@@ -1,10 +1,10 @@
 openapi: 3.0.0
 info:
-  title: TN Data Platofrm API 
-  description: This API enables the management of data processing workflows within a data platform. It provides endpoints for creating, updating, deleting, and retrieving workflows, as well as monitoring their status and performance.
+  title: TN Data Workload API 
+  description: This API enables the management of data processing workloads within a data platform. It provides endpoints for creating, updating, deleting, and retrieving workflows, as well as monitoring their status and performance.
   version: 1.0.0
 servers:
-  - url: http://localhost:8080
+  - url: https://bastoska.github.io/plataforma-dados-api/
     description: Development server
 paths:
   /workflows:
