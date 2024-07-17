@@ -1,14 +1,25 @@
 openapi: 3.0.0
 info:
   title: TN Data Workload API 
-  description: This API enables the management of data processing workloads within a data platform. It provides endpoints for creating, updating, deleting, and retrieving workflows, as well as monitoring their status and performance.
+  description: |-
+    This API enables the management of data processing workloads within a data platform. It provides endpoints for creating, updating, deleting, and retrieving workflows, as well as monitoring their status and performance.
+    
+    Some useful links:
+    - [API Repository](https://github.com/bastoska/plataforma-dados-api)
   version: 1.0.0
 servers:
   - url: https://bastoska.github.io/plataforma-dados-api/
     description: Development server
+tags:
+  - name: workloads
+    description: Everything about your Workloads
+  - name: tag_example
+    description: tag_example description
 paths:
-  /workflows:
+  /workloads:
     get:
+      tags:
+        - workloads
       summary: Summary of the GET endpoint
       description: Description of what this endpoint does
       parameters:
@@ -36,6 +47,8 @@ paths:
         '400':
           description: Bad request
     post:
+      tags:
+        - workloads
       summary: Summary of the POST endpoint
       description: Description of what this endpoint does
       requestBody:
@@ -67,6 +80,8 @@ paths:
           description: Bad request
   /endpoint2:
     post:
+      tags:
+        - tag_example
       summary: Summary of the POST endpoint
       description: Description of what this endpoint does
       requestBody:
@@ -98,6 +113,8 @@ paths:
           description: Bad request
   /endpoint3/{id}:
     put:
+      tags:
+        - tag_example
       summary: Summary of the PUT endpoint
       description: Description of what this endpoint does
       parameters:
@@ -143,9 +160,30 @@ components:
     ExampleSchema:
       type: object
       properties:
-        id:
+        field1:
+          type: integer
+          format: int64
+          example: 10
+        field2:
+          type: integer
+          format: int64
+          example: 198772
+        field3:
+          type: integer
+          format: int32
+          example: 7
+        field4:
           type: string
-          example: 123
-        name:
+          format: date-time
+        field5:
           type: string
-          example: Example Name
+          description: Order Status
+          example: approved
+          enum:
+            - placed
+            - approved
+            - delivered
+        field6:
+          type: boolean
+      xml:
+        name: order
