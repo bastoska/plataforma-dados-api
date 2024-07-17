@@ -10,3 +10,8 @@
     Descrição dos Artefatos - documentos e diagramas (TODO)
   </p>
 </div>
+
+<br>
+<p align="justify">
+&ensp;&ensp;&ensp;&ensp;(TODO)
+</p> 

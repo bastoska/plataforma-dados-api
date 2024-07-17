@@ -1,0 +1,151 @@
+openapi: 3.0.0
+info:
+  title: TN Data Platofrm API 
+  description: This API enables the management of data processing workflows within a data platform. It provides endpoints for creating, updating, deleting, and retrieving workflows, as well as monitoring their status and performance.
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+    description: Development server
+paths:
+  /workflows:
+    get:
+      summary: Summary of the GET endpoint
+      description: Description of what this endpoint does
+      parameters:
+        - name: param1
+          in: query
+          description: Description of param1
+          required: true
+          schema:
+            type: string
+            example: example1
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  key1:
+                    type: string
+                    example: value1
+                  key2:
+                    type: integer
+                    example: 123
+        '400':
+          description: Bad request
+    post:
+      summary: Summary of the POST endpoint
+      description: Description of what this endpoint does
+      requestBody:
+        description: Description of the request body
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                param1:
+                  type: string
+                  example: value1
+                param2:
+                  type: integer
+                  example: 123
+      responses:
+        '201':
+          description: Resource created successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    example: 123
+        '400':
+          description: Bad request
+  /endpoint2:
+    post:
+      summary: Summary of the POST endpoint
+      description: Description of what this endpoint does
+      requestBody:
+        description: Description of the request body
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                param1:
+                  type: string
+                  example: value1
+                param2:
+                  type: integer
+                  example: 123
+      responses:
+        '201':
+          description: Resource created successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    example: 123
+        '400':
+          description: Bad request
+  /endpoint3/{id}:
+    put:
+      summary: Summary of the PUT endpoint
+      description: Description of what this endpoint does
+      parameters:
+        - name: id
+          in: path
+          description: ID of the resource to update
+          required: true
+          schema:
+            type: string
+            example: 123
+      requestBody:
+        description: Description of the request body
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                param1:
+                  type: string
+                  example: value1
+                param2:
+                  type: integer
+                  example: 123
+      responses:
+        '200':
+          description: Resource updated successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  key1:
+                    type: string
+                    example: value1
+                  key2:
+                    type: integer
+                    example: 123
+        '404':
+          description: Resource not found
+components:
+  schemas:
+    ExampleSchema:
+      type: object
+      properties:
+        id:
+          type: string
+          example: 123
+        name:
+          type: string
+          example: Example Name
