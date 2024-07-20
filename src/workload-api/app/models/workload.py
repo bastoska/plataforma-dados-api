@@ -2,7 +2,7 @@ from tinydb import TinyDB, Query
 from tinydb.storages import MemoryStorage
 from datetime import datetime
 
-db = TinyDB('app/data/db.json')  # In-memory TinyDB for testing
+db = TinyDB('app/data/db.json')
 
 class Workload:
     def __init__(self):
