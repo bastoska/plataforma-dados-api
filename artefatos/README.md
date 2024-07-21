@@ -13,5 +13,13 @@
 
 <br>
 <p align="justify">
-&ensp;&ensp;&ensp;&ensp;(TODO)
-</p> 
+&ensp;&ensp;&ensp;&ensp;Este diretório contém os documentos e diagramas. Segue abaixo uma descrição sobre cada um deles.
+</p>
+
+## Listagem e Descrição
+
+<p align="center">
+  <img src="../imgs/entregaveis.png" >
+</p>
+
+(TODO)
