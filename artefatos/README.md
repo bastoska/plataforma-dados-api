@@ -4,16 +4,16 @@
 <br />
 <div align="center">
 
-  <h3 align="center">Entregáveis (TODO) </h3>
+  <h3 align="center">Entregáveis</h3>
 
   <p align="center">
-    Descrição dos Artefatos - documentos e diagramas (TODO)
+    Descrição dos Artefatos - documentos e diagramas
   </p>
 </div>
 
 <br>
 <p align="justify">
-&ensp;&ensp;&ensp;&ensp;Este diretório contém os documentos e diagramas. Para acessá-los, configura a pasta `arquivo/`. <br>
+&ensp;&ensp;&ensp;&ensp;Este diretório contém os documentos e diagramas. Para acessá-los, confira a pasta 'arquivos/'. <br>
 
 Segue abaixo uma descrição sobre cada um deles.
 </p>
