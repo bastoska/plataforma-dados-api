@@ -100,7 +100,7 @@ Segue abaixo as principais tecnologias e libs utilizadas, juntamente com suas ve
 
     Acesse este endereço no navegador:
 
-    ``sh
+    ```sh
     http://localhost:8080/
     ```
 
