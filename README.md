@@ -47,14 +47,14 @@ Segue abaixo as principais tecnologias e libs utilizadas, juntamente com suas ve
 ## Reprodução
 
 <p align="justify">
-&ensp;&ensp;&ensp;&ensp;Para subir a API, deixamos aqui duas opções:
+&ensp;&ensp;&ensp;&ensp;Para subir a API, há duas opções
 </p>
 
 1. Python via terminal
-2. Docker
+2. via Docker
 
 <p align="justify">
-&ensp;&ensp;&ensp;&ensp;AS duas opção serão detalhadas a seguir. Um detalhe é que todos os comandos listados abaixo são referente a comandos em terminal bash. Caso você utilize Windows, é importante que recorra ao WSL ou use os respectivos comandos do SO, se for o caso.
+&ensp;&ensp;&ensp;&ensp;AS duas opção serão detalhadas a seguir. Um ponto importante é que todos os comandos listados abaixo são referente a comandos em terminal bash. Caso você utilize Windows, é importante que recorra ao WSL ou use os respectivos comandos do SO, se for o caso.
 </p>
 
 ### Execução com Python via terminal
@@ -93,6 +93,7 @@ Segue abaixo as principais tecnologias e libs utilizadas, juntamente com suas ve
 4. Execute a API
 
     O Código abaixo expõe a API na porta 8080. Caso ela já esteja sendo usada por alguma outra aplicação, basta alterá-la antes de executar.
+
     ```sh
     uvicorn app.app:app --host 0.0.0.0 --port 8080
     ```
@@ -109,7 +110,7 @@ Segue abaixo as principais tecnologias e libs utilizadas, juntamente com suas ve
 
     O FastAPI gera automaticamente uma documentação da API. Para acessá-la, basta inserir o seguinte endereço no navegador: 
 
-    ``sh
+    ```sh
     http://localhost:8080/docs
     ```
 
