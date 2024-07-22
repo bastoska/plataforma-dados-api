@@ -25,7 +25,7 @@ Segue abaixo uma descrição sobre cada um deles.
 </p>
 
 
-### Artefato 1: Documentação da API - padrão OpenAPI
+### Artefato 1: Documentação da API
 <p align="justify">
 &ensp;&ensp;&ensp;&ensp;A Documentação da API foi feita utilizando o padrão OpenAPI, utilizando o <a href="https://editor.swagger.io/" target="_blank"> Editor Swagger</a>. Ele detalha cada um dos endpoints, trazendo o schema do payload eseprado, códigos e mensagens de erros possíveis, bem como exemplos de inputs.
 </p>
@@ -47,6 +47,9 @@ Segue abaixo uma descrição sobre cada um deles.
 
 ### Artefato 3: Camadas de Arquitetura de Governança
 
+<p align="justify">
+&ensp;&ensp;&ensp;&ensp;O Diagrama apresenta as camadas de Segurança, Acesso e Auditoria e seu relacionamento com a API.
+</p>
 
 ### Artefato 4: Documentação de Políticas
 
@@ -59,15 +62,18 @@ Segue abaixo uma descrição sobre cada um deles.
 - Artefato 4c: versa sobre as políticas e procedimentos de auditoria.
 
 ### Artefato 5: IAM no GCP
+<p align="justify">
+&ensp;&ensp;&ensp;&ensp;O Cloud IAM apresenta duversas políticas que suporta a política definida no projeto. O artefato apresenta políticas de RBAC, COntrole de acesso baseado em recursos e permissões com condicionais.
+</p>
 
 ### Artefato 6: Código Fonte do Protótipo
 <p align="justify">
-&ensp;&ensp;&ensp;&ensp;o Código fonte se encontra na pasta `/src/workload-api/` aqui neste repositório.
+&ensp;&ensp;&ensp;&ensp;O Código fonte se encontra na pasta `/src/workload-api/` aqui neste repositório.
 </p>
 
 ### Artefato 7: Testes Unitários e de Integração
 <p align="justify">
-&ensp;&ensp;&ensp;&ensp;o Código fonte se encontra na pasta `/src/workload-api/tests` aqui neste repositório.
+&ensp;&ensp;&ensp;&ensp;O Código fonte se encontra na pasta `/src/workload-api/tests`. Foram testados testes para os endpoints criação, listagem e deleção.
 </p>
 
 ### Artefato 8: 
