@@ -57,9 +57,9 @@ Segue abaixo uma descrição sobre cada um deles.
 &ensp;&ensp;&ensp;&ensp;Nesta entrega há três documentos:
 </p>
 
-- Artefato 4a - Políticas de Segurança: lista as políticas de segurança a nível de Proteção de Dados, Segurança de Rede e Controle de Acesso;
-- Artefato 4b: detalha o controle de acesso à API, trazendo os cargos e funções;
-- Artefato 4c: versa sobre as políticas e procedimentos de auditoria.
+- **Artefato 4a**: Políticas de Segurança: lista as políticas de segurança a nível de Proteção de Dados, Segurança de Rede e Controle de Acesso;
+- **Artefato 4b**: detalha o controle de acesso à API, trazendo os cargos e funções;
+- **Artefato 4c**: versa sobre as políticas e procedimentos de auditoria.
 
 ### Artefato 5: IAM no GCP
 <p align="justify">
