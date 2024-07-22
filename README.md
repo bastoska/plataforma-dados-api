@@ -39,7 +39,7 @@ Segue abaixo as principais tecnologias e libs utilizadas, juntamente com suas ve
 
 
 <p align="justify">
-&ensp;&ensp;&ensp;&ensp;Para as demais dependências, confira <a href="https://github.com/bastoska/plataforma-dados-api/blob/main/src/workload-api/requirements.txt">este requirements</a>.
+&ensp;&ensp;&ensp;&ensp;Para as demais dependências, confira <a href="https://github.com/bastoska/plataforma-dados-api/blob/main/src/workload-api/requirements.txt" target="_blank">este requirements</a>.
 </p>
 
 ## Reprodução
@@ -68,7 +68,7 @@ Segue abaixo as principais tecnologias e libs utilizadas, juntamente com suas ve
     ```
 2. Configuração do Ambiente
   
-    Antes de iniciar, é necessário ter o Python instalado. Caso você não tenha, você pode seguir as instruções deste <a href="https://www.python.org/downloads/">link</a>.
+    Antes de iniciar, é necessário ter o Python instalado. Caso você não tenha, você pode seguir as instruções deste <a href="https://www.python.org/downloads/" target="_blank">link</a>.
 
     Uma vez Python esteja instalado na máquina, é necessário criar um ambiente virtual para instalar as dependências de forma isolada:
 
@@ -134,7 +134,7 @@ Para subir a API via container é bem mais simples, basta ter o Docker instalado
 
 1. Instalação Docker
 
-    Você pode seguir as instruções <a href="https://docs.docker.com/engine/install/">deste link</a> para instalar o Docker.
+    Você pode seguir as instruções <a href="https://docs.docker.com/engine/install/" target="_blank">deste link</a> para instalar o Docker.
 
 
 2. Execução da API

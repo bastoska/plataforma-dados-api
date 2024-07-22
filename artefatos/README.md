@@ -27,11 +27,11 @@ Segue abaixo uma descrição sobre cada um deles.
 
 ### Artefato 1: Documentação da API - padrão OpenAPI
 <p align="justify">
-&ensp;&ensp;&ensp;&ensp;A Documentação da API foi feita utilizando o padrão OpenAPI, utilizando o <a href="https://editor.swagger.io/"> Editor Swagger</a>. Ele detalha cada um dos endpoints, trazendo o schema do payload eseprado, códigos e mensagens de erros possíveis, bem como exemplos de inputs.
+&ensp;&ensp;&ensp;&ensp;A Documentação da API foi feita utilizando o padrão OpenAPI, utilizando o <a href="https://editor.swagger.io/" target="_blank"> Editor Swagger</a>. Ele detalha cada um dos endpoints, trazendo o schema do payload eseprado, códigos e mensagens de erros possíveis, bem como exemplos de inputs.
 </p>
 
 <p align="justify">
-&ensp;&ensp;&ensp;&ensp;Para facilitar, foi criado <a href="https://github.com/bastoska/workload-api-docs">este outro repositório</a> e configurado para hospedar a documentação. Basta clicar <a href="https://bastoska.github.io/workload-api-docs">neste link</a> que você será levado diretamente para o swagger.
+&ensp;&ensp;&ensp;&ensp;Para facilitar, foi criado <a href="https://github.com/bastoska/workload-api-docs" target="_blank">este outro repositório</a> e configurado para hospedar a documentação. Basta clicar <a href="https://bastoska.github.io/workload-api-docs">neste link</a> que você será levado diretamente para o swagger.
 </p>
 
 ### Artefato 2: Arquitetura da API
