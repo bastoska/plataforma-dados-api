@@ -4,11 +4,12 @@ COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
-WORKDIR /app
+WORKDIR /workload-api
 
 COPY app/ app/
+COPY tests/ tests/
+COPY pytest.ini pytest.ini
 
 ENV PYTHONUNBUFFERED=1
-EXPOSE 8080
 
-CMD ["uvicorn", "app.app:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["pytest"]
