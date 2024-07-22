@@ -1,4 +1,10 @@
-fastapi
-uvicorn[standard]
-pydantic
-tinydb
+fastapi==0.111.1
+fastapi-cli==0.0.4
+httpx==0.27.0
+pydantic==2.8.2
+pydantic_core==2.20.1
+pytest==8.3.1
+pytest-asyncio==0.23.8
+PyYAML==6.0.1
+tinydb==4.8.0
+uvicorn==0.30.3
