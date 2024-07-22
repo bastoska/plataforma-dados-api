@@ -34,6 +34,11 @@ Segue abaixo uma descrição sobre cada um deles.
 &ensp;&ensp;&ensp;&ensp;Para facilitar, foi criado <a href="https://github.com/bastoska/workload-api-docs" target="_blank">este outro repositório</a> e configurado para hospedar a documentação. Basta clicar <a href="https://bastoska.github.io/workload-api-docs" target="_blank">neste link</a> que você será levado diretamente para o swagger.
 </p>
 
+<p align="justify">
+&ensp;&ensp;&ensp;&ensp;Aqui no diretório, a documentação está em formato .yaml, no arquivo openapi.yaml
+</p>
+
+
 ### Artefato 2: Arquitetura da API
 
 <p align="justify">
