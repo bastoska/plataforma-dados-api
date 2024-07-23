@@ -107,6 +107,6 @@ Segue abaixo uma descrição sobre cada um deles.
 &ensp;&ensp;&ensp;&ensp;Dados os desafios identificados e os objetivos do projeto, a implementação pode ser de fato desafiadora. Visto que a prova de conceito precisa ser bem direcionada, optou-se por dar um foco na parte de Governança e Segurança de Dados. Mais detalhes no artefato.
 </p>
 
-<a href="" target="_blank">Link para o Diretório</a>
+<a href="https://github.com/bastoska/plataforma-dados-api/blob/main/artefatos/arquivos/Artefato%208%20-%20Sugest%C3%A3o%20Foco%20PoC.pdf" target="_blank">Link para o Arquivo</a>
 
 <a href="https://docs.google.com/document/d/1ZRmwbaS-wtdTHflp08-_6Wbg76Sm7z5eYqwbz9CQPlo/edit?usp=sharing" target="_blank">Link para o Google Docs</a>    
