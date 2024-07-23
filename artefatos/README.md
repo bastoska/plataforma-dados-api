@@ -69,6 +69,13 @@ Segue abaixo uma descrição sobre cada um deles.
 - **Artefato 4b**: detalha o controle de acesso à API, trazendo os cargos e funções; (<a href="https://github.com/bastoska/plataforma-dados-api/blob/main/artefatos/arquivos/Artefato%204b%20-%20Controle%20de%20Acesso.pdf" target="_blank">Link para o Arquivo</a>)
 - **Artefato 4c**: versa sobre as políticas e procedimentos de auditoria. (<a href="https://github.com/bastoska/plataforma-dados-api/blob/main/artefatos/arquivos/Artefato%204c%20-%20Auditoria.pdf" target="_blank">Link para o Arquivo</a>)
 
+<p align="justify">
+&ensp;&ensp;&ensp;&ensp;Para que não seja necessário baixar os .pdfs, segue o link do google docs:
+</p>
+
+- <a href="https://docs.google.com/document/d/15mES2XgWymjw6FOVtfSIycugyY33weFJ8xXJXMRk31s/edit?usp=sharing">Link 4a</a>
+- <a href="https://docs.google.com/document/d/1pltWClSqqoV7u6-Te_5GjA27OXb0yWzBcdvUZn8va-8/edit?usp=sharing">Link 4b</a>
+- <a href="https://docs.google.com/document/d/1b8LtxNN54hPeVvVlUt_ds2M-t1mJ636Vce8PLXibvWA/edit?usp=sharing">Link 4c</a>
 
 
 ### Artefato 5: IAM no GCP
@@ -77,6 +84,8 @@ Segue abaixo uma descrição sobre cada um deles.
 </p>
 
 <a href="https://github.com/bastoska/plataforma-dados-api/blob/main/artefatos/arquivos/Artefato%205%20-%20IAM%20GCP.pdf" target="_blank">Link para o Arquivo</a>
+
+<a href="https://docs.google.com/document/d/1aM8nKb_q2F13KbEdcZJyafzhGpPyBGDjbbvyAFKegXc/edit?usp=sharing" target="_blank">Link para o Google Docs</a>
 
 ### Artefato 6: Código Fonte do Protótipo
 <p align="justify">
