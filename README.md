@@ -20,7 +20,7 @@
 ## Sobre o Projeto
 
 <p align="justify">
-&ensp;&ensp;&ensp;&ensp;Visando realizar testes iniciais com gerenciamento de worklaods de dados por meio de uma API, optou-se por desenvolver este protótipo. Por enquanto há apenas endpoints que simulam interações com o usuário para a criação de workloads.
+&ensp;&ensp;&ensp;&ensp;Visando realizar testes iniciais com gerenciamento de workloads de dados por meio de uma API, optou-se por desenvolver este protótipo. Por enquanto há apenas endpoints que simulam interações com o usuário para a criação de workloads.
 </p>
 
 <p align="justify">
@@ -53,7 +53,7 @@
     ├── tests                ---> diretório para conter os arquivos de testes
     │   └── test_app.py      ---> arquivo com testes das rotas da API
     └── volume               ---> volume para mapear a pastas no container - para fins de devesenvolvimento
-        └── data             ---> diretório que contém inputs
+        └── data             ---> diretório para armazenar inputs
             └── db.json      ---> arquivo do banco de desenvolvimento da API (TinyDB)
 ```
 
