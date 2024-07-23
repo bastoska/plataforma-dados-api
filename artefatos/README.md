@@ -34,10 +34,12 @@ Segue abaixo uma descrição sobre cada um deles.
 &ensp;&ensp;&ensp;&ensp;Para facilitar, foi criado <a href="https://github.com/bastoska/workload-api-docs" target="_blank">este outro repositório</a> e configurado para hospedar a documentação. Basta clicar <a href="https://bastoska.github.io/workload-api-docs" target="_blank">neste link</a> que você será levado diretamente para o swagger.
 </p>
 
+
 <p align="justify">
 &ensp;&ensp;&ensp;&ensp;Aqui no diretório, a documentação está em formato .yaml, no arquivo openapi.yaml
 </p>
 
+<a href="https://github.com/bastoska/plataforma-dados-api/blob/main/artefatos/arquivos/openapi.yaml" target="_blank">Link para o Arquivo</a>
 
 ### Artefato 2: Arquitetura da API
 
@@ -45,11 +47,15 @@ Segue abaixo uma descrição sobre cada um deles.
 &ensp;&ensp;&ensp;&ensp;O diagrama mostra como o usuário se autentica e se comunica com a API, bem como o acesso da API a recursos do Google Cloud. Além disso, ele traz os respectivos recursos no GCP que serão utilizados no projeto.
 </p>
 
+<a href="https://github.com/bastoska/plataforma-dados-api/blob/main/artefatos/arquivos/Artefato%202%20-%20Arquitetura%20API.png" target="_blank">Link para o Arquivo</a>
+
 ### Artefato 3: Camadas de Arquitetura de Governança
 
 <p align="justify">
 &ensp;&ensp;&ensp;&ensp;O Diagrama apresenta as camadas de Segurança, Acesso e Auditoria e seu relacionamento com a API.
 </p>
+
+<a href="https://github.com/bastoska/plataforma-dados-api/blob/main/artefatos/arquivos/Artefato%203%20-%20diagramas%20de%20governan%C3%A7a.png" target="_blank">Link para o Arquivo</a>
 
 ### Artefato 4: Documentação de Políticas
 
@@ -57,23 +63,31 @@ Segue abaixo uma descrição sobre cada um deles.
 &ensp;&ensp;&ensp;&ensp;Nesta entrega há três documentos:
 </p>
 
-- **Artefato 4a**: Políticas de Segurança: lista as políticas de segurança a nível de Proteção de Dados, Segurança de Rede e Controle de Acesso;
-- **Artefato 4b**: detalha o controle de acesso à API, trazendo os cargos e funções;
-- **Artefato 4c**: versa sobre as políticas e procedimentos de auditoria.
+- **Artefato 4a**: Políticas de Segurança: lista as políticas de segurança a nível de Proteção de Dados, Segurança de Rede e Controle de Acesso; (<a href="https://github.com/bastoska/plataforma-dados-api/blob/main/artefatos/arquivos/Artefato%204a%20-%20Pol%C3%ADticas%20de%20Seguran%C3%A7a.pdf" target="_blank">Link para o Arquivo</a>)
+- **Artefato 4b**: detalha o controle de acesso à API, trazendo os cargos e funções; (<a href="https://github.com/bastoska/plataforma-dados-api/blob/main/artefatos/arquivos/Artefato%204b%20-%20Controle%20de%20Acesso.pdf" target="_blank">Link para o Arquivo</a>)
+- **Artefato 4c**: versa sobre as políticas e procedimentos de auditoria. (<a href="https://github.com/bastoska/plataforma-dados-api/blob/main/artefatos/arquivos/Artefato%204c%20-%20Auditoria.pdf" target="_blank">Link para o Arquivo</a>)
+
+
 
 ### Artefato 5: IAM no GCP
 <p align="justify">
 &ensp;&ensp;&ensp;&ensp;O Cloud IAM apresenta duversas políticas que suporta a política definida no projeto. O artefato apresenta políticas de RBAC, COntrole de acesso baseado em recursos e permissões com condicionais.
 </p>
 
+<a href="https://github.com/bastoska/plataforma-dados-api/blob/main/artefatos/arquivos/Artefato%205%20-%20IAM%20GCP.pdf" target="_blank">Link para o Arquivo</a>
+
 ### Artefato 6: Código Fonte do Protótipo
 <p align="justify">
 &ensp;&ensp;&ensp;&ensp;O Código fonte se encontra na pasta `/src/workload-api/` aqui neste repositório.
 </p>
 
+<a href="https://github.com/bastoska/plataforma-dados-api/tree/main/src/workload-api" target="_blank">Link para o Diretório</a>
+
 ### Artefato 7: Testes Unitários e de Integração
 <p align="justify">
 &ensp;&ensp;&ensp;&ensp;O Código fonte se encontra na pasta `/src/workload-api/tests`. Foram testados testes para os endpoints criação, listagem e deleção.
 </p>
+
+<a href="https://github.com/bastoska/plataforma-dados-api/tree/main/src/workload-api/tests" target="_blank">Link para o Diretório</a>
 
 ### Artefato 8: 
