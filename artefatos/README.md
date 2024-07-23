@@ -18,6 +18,8 @@
 Segue abaixo uma descrição sobre cada um deles.
 </p>
 
+⚠️ Caso você esteja olhando este markdown pelo Github, é possível que os links não abram em uma nova aba.
+
 ## Listagem e Descrição
 
 <p align="center">

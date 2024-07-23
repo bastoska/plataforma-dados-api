@@ -16,6 +16,8 @@
 
 <br>
 
+⚠️ Caso você esteja olhando este markdown pelo Github, é possível que os links não abram em uma nova aba.
+
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
 
