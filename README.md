@@ -69,20 +69,21 @@ Segue abaixo as principais tecnologias e libs utilizadas, juntamente com suas ve
 
 
 <p align="justify">
-&ensp;&ensp;&ensp;&ensp;Para as demais dependências, confira <a href="https://github.com/bastoska/plataforma-dados-api/blob/main/src/workload-api/requirements.txt" target="_blank">este requirements</a>.
+&ensp;&ensp;&ensp;&ensp;Para as demais dependências, confira o arquivo de<a href="https://github.com/bastoska/plataforma-dados-api/blob/main/src/workload-api/requirements.txt" target="_blank">requirements</a>.
 </p>
 
 ## Reprodução
 
 <p align="justify">
-&ensp;&ensp;&ensp;&ensp;Para subir a API, há duas opções
+&ensp;&ensp;&ensp;&ensp;Para subir a API, há duas opções:
 </p>
 
 1. Python via terminal
 2. via Docker
 
 <p align="justify">
-&ensp;&ensp;&ensp;&ensp;AS duas opção serão detalhadas a seguir. Um ponto importante é que todos os comandos listados abaixo são referente a comandos em terminal bash. Caso você utilize Windows, é importante que recorra ao WSL ou use os respectivos comandos do SO, se for o caso.
+&ensp;&ensp;&ensp;&ensp;AS duas opção serão detalhadas a seguir. <br>
+&ensp;&ensp;&ensp;&ensp; ⚠️ Um ponto importante é que todos os comandos listados abaixo foram executados em terminal de uma distro linux. Caso você utilize outro sistema, é importante ficar atento às possíveis mudanças.
 </p>
 
 ### Execução com Python via terminal
@@ -178,6 +179,8 @@ Para subir a API via container é bem mais simples, basta ter o Docker instalado
     ```
 
     Esse comando construirá a imagem, executará o container e deixará os logs na tela.
+
+    ⚠️ Se, por acaso, você utilize um sistema operacional que não permita a execução do arquivo bash, basta copiar os comandos `docker` e colar no terminal. Lembre de atribuir um nome à imagem e ao container. ⚠️
 
 3. Interação com a API
 
