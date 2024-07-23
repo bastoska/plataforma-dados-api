@@ -28,6 +28,36 @@
 </p>
 
 
+## Estrutura das Pastas
+
+```
+└── workload-api
+    ├── app                      -> diretório principal que contém o código fonte da API
+    │   ├── app.py               -> entrypoint da API
+    │   ├── config.py            -> arquivo para armazenar variáveis de configuração/globais
+    │   ├── data                 -> diretório para armazenar inputs
+    │   ├── database.py          -> arquivo de configuração do banco de dados backend
+    │   ├── models               -> diretório para conter os models da API
+    │   │   └── workload.py      -> model do workload. Contém a definição dos métodos HTTP
+    │   ├── routers              -> diretório para conter as rotas da API
+    │   │   └── workload.py      -> arquivo com as rotas de criação, listagem atualização e deleção de workloads
+    │   ├── schemas              -> diretório para conter a estrutura (campos, tipos, restrições) dos objetos do banco
+    │   │   └── workload.py      -> arquivo com po schema do workload
+    │   └── utils                -> diretório para conter arquivos auxiliares, como funções para conexão com o Google Cloud
+    │       └── utils.py         -> arquivo para conter funções auxiliares gerais
+    ├── Dockerfile               -> arquivo para a criação da imagem Docker da API
+    ├── DockerfileTest           -> arquivo para a criação da imagem Docker que executa os testes da API
+    ├── pytest.ini               -> arquivo de configuração do PyTest   
+    ├── requirements.txt         -> arquivos com as dependências Python do projeto
+    ├── run.sh                   -> arquivo auxiliar para a execução dos comandos de criação do container
+    ├── tests                    -> diretório para conter os arquivos de testes
+    │   └── test_app.py          -> arquivo com testes das rotas da API
+    └── volume                   -> volume para mapear a pastas no container - para fins de devesenvolvimento
+        └── data                 -> diretório que contém inputs
+            └── db.json          -> arquivo do banco de desenvolvimento da API (TinyDB)
+```
+
+
 ## Requisitos
 
 Segue abaixo as principais tecnologias e libs utilizadas, juntamente com suas versões.
