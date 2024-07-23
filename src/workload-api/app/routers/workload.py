@@ -8,7 +8,7 @@ from fastapi import APIRouter, HTTPException
 ## LOCAL IMPORTS
 from app.models.workload import Workload
 from app.schemas import workload as schemas
-# from app.utils import SparkBigqueryCounter
+from app.utils import SparkBigqueryCounter
 
 
 router = APIRouter()
@@ -20,6 +20,8 @@ def create_workload(workload: schemas.WorkloadCreate):
     Creates a new workload.
     """
     workload_data = workload.dict()
+
+    spark_bq_counter = SparkBigqueryCounter(**workload_data)
     
     workload_data['id'] = len(workload_model.table) + 1
     workload_data['status'] = 'created'  # Default status
