@@ -209,6 +209,42 @@ Para subir a API via container é bem mais simples, basta ter o Docker instalado
     docker rm -f workload_api
     ```
 
+
+## Próximos Passos Com o Protótipo
+
+<p align="justify">
+&ensp;&ensp;&ensp;&ensp;Como próximo passo para este protótipo, sugerimos uma implementação para executar um batch no Dataproc Serveles conforme a figura abaixo:
+</p>
+
+<p align="center">
+  <img src="./imgs/API-PROTOT-V2.png" >
+</p>
+
+<p align="justify">
+&ensp;&ensp;&ensp;&ensp;Explicação:
+</p>
+
+1. Ao receber uma requisição de criação de workload, a API salva o registro banco de dados e envia uma mensagem no PubSub;
+2. Uma Cloud Function é acionada com essa mensagem. Essa funtion recebe os parâmetros e criar um batch no Dataproc;
+3. O Batch no Dataproc recebe a coluna do `projeto.dataset.table` informado e conta as palavras. Ao finalizar, salva os resultados em uma tabela já previamente criada.
+4. A API, por sua vez, lê essa tabela e retorna quando requisitada no respectivo endpoint.
+
+
+<p align="justify">
+&ensp;&ensp;&ensp;&ensp;Para o permissionamento da API ao GCP, usaríamos uma Service Account com as seguintes funções:
+</p>
+
+
+- `roles/pubsub.publisher`: permite o envio de mensagens ao PubSub;
+- `roles/bigquery.dataViewer`: permite ler dados e metadados do BigQuery;   
+- `roles/bigquery.user`: permite criar queries e executar job no BigQuery.
+
+
+<p align="justify">
+&ensp;&ensp;&ensp;&ensp;Uma vez que a lista de palavras pode ser considerávelmente grande, salvar na tabela do BigQuery como sugerido acima pode ser mais interessante do que retornar essas contas para a API para que ela salve no banco de dados backend. Contudo, é um ponto que precisaríamos avaliar.
+</p>
+
+
 <!-- LICENSE -->
 ## License
 
