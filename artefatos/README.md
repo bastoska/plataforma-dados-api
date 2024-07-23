@@ -101,4 +101,12 @@ Segue abaixo uma descrição sobre cada um deles.
 
 <a href="https://github.com/bastoska/plataforma-dados-api/tree/main/src/workload-api/tests" target="_blank">Link para o Diretório</a>
 
-### Artefato 8: 
+### Artefato 8: Sugestão de Foco em PoC
+
+<p align="justify">
+&ensp;&ensp;&ensp;&ensp;Dados os desafios identificados e os objetivos do projeto, a implementação pode ser de fato desafiadora. Visto que a prova de conceito precisa ser bem direcionada, optou-se por dar um foco na parte de Governança e Segurança de Dados. Mais detalhes no artefato.
+</p>
+
+<a href="" target="_blank">Link para o Diretório</a>
+
+<a href="https://docs.google.com/document/d/1ZRmwbaS-wtdTHflp08-_6Wbg76Sm7z5eYqwbz9CQPlo/edit?usp=sharing" target="_blank">Link para o Google Docs</a>    
