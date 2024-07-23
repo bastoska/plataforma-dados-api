@@ -20,7 +20,7 @@
 ## Sobre o Projeto
 
 <p align="justify">
-&ensp;&ensp;&ensp;&ensp;Visando realizar testes iniciais com gerenciamento de worklaods de dados por meio de uma API, optou-se por desenvolver este protótipi. Por enquanto há apenas endpoints que simulam interações com o usuário para a criação de workloads.
+&ensp;&ensp;&ensp;&ensp;Visando realizar testes iniciais com gerenciamento de worklaods de dados por meio de uma API, optou-se por desenvolver este protótipo. Por enquanto há apenas endpoints que simulam interações com o usuário para a criação de workloads.
 </p>
 
 <p align="justify">
