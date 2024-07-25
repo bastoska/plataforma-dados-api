@@ -67,10 +67,7 @@ up_container_test () {
   ## verificando se a imagem do APP está construída antes de prosseguir
   if docker image inspect $image_name > /dev/null 2>&1; then
     container_name=workload-api-test
-    docker run --name $container_name $image_name pytest
-    echo "Deletando container: ${container_name}"
-    docker rm -f $container_name
-    echo "Container (${container_name}) deletado!"
+    docker run --rm --name $container_name $image_name pytest
 
   else
     echo "Erro: A imagem $image_name não existe. Por favor, construa-a primeiro usando 'build' ou use o comando 'build_test'."
