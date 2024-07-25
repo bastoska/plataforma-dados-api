@@ -172,12 +172,17 @@ Para subir a API via container é bem mais simples, basta ter o Docker instalado
 
 2. Execução da API
 
-    Para facilitar, o script `src/workload-api/run.sh' contém funções para subir o container. Ele contém duas funções: uma para subir a API e outra para executar os testes. O script é simples e, para mais detalhes, basta dar uma olhada nos comentários nele.
+    Para facilitar, o script `src/workload-api/run.sh' contém funções para subir o container. Ele contém funções distintas para executar separadamente ou não a consturção da imagem, execução do container.
 
-    Assim, para subir a API, basta executar:
+    Antes de subir a API, precisamos primeiramente construir a imagem de requirements:
 
     ```sh
-    bash run.sh up
+    bash run.sh build_reqs && 
+    ```
+
+    Uma vez construída, basta executar o seguinte comando e a API estará no ar:
+    ```sh
+    bash run.sh build_run
     ```
 
     Esse comando construirá a imagem, executará o container e deixará os logs na tela.
@@ -194,6 +199,14 @@ Para subir a API via container é bem mais simples, basta ter o Docker instalado
 
     ```sh
     bash run.sh test
+    ```
+
+    ⚠️ O comando acima requer que a imagem de requirements esteja construída (feito no passo 1).
+
+    Caso precise executar sem ter construído antes, execute o comando abaixo - ele criará a imagem e executará o test:
+
+    ```sh
+    bash run.sh build_test
     ```
 
 5. Cancelando a Execução
