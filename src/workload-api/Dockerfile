@@ -1,12 +1,10 @@
-FROM python:3.11-slim
-
-COPY requirements.txt .
-
-RUN pip install -r requirements.txt
+FROM workload-api-requirements:1.0
 
 WORKDIR /app
 
 COPY app/ app/
+COPY tests/ tests/
+COPY pytest.ini pytest.ini
 
 ENV PYTHONUNBUFFERED=1
 EXPOSE 8080
