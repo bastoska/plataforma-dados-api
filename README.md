@@ -203,12 +203,6 @@ Para subir a API via container é bem mais simples, basta ter o Docker instalado
 
     ⚠️ O comando acima requer que a imagem de requirements esteja construída (feito no passo 1).
 
-    Caso precise executar sem ter construído antes, execute o comando abaixo - ele criará a imagem e executará o test:
-
-    ```sh
-    bash run.sh build_test
-    ```
-
 5. Cancelando a Execução
 
     Para cancelar a execução, é necessário parar ou remover o container. Execute os seguintes comandos:
